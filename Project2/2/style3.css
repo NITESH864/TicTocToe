@@ -1,0 +1,37 @@
+body{
+    margin: 0%;
+    padding: 0%; 
+    background-color: rgb(141, 218, 218);
+}
+table{
+    height:500px;
+    width:500px ;
+    margin: auto;
+    padding: 60px;
+    font-weight: bold;
+    border-color: solid black;
+    border-radius: 50px;
+}
+th,td{
+    text-justify: auto;
+    text-align: center;
+
+
+}
+td{
+    font-weight: lighter;
+    background-color: rgb(141, 89, 25);
+
+}
+th{
+    border-color: blue;
+    background-color: blueviolet;
+}
+th:hover{
+    color: chartreuse;
+    background-color: brown;
+}
+td:hover{
+    background-color: darkred;
+    color: honeydew;
+}

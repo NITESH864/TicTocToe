@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Registration form</h2>
+    <div class="form-group">
+    <form id="registration">
+      <label>Username</label>
+      <input type="text"id="username" placeholder="Enter your username"required>
+</div>
+<div class="form-group">
+  <label>Email</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email"required>
+</div>
+<div class="form-group">
+  <label>Course</label> 
+    <select name="course"id="course" >
+    <option value="">Select Course</option>
+    <option value="html">HTML</option>
+    <option value="javaScript">javaScript</option>
+  </select>
+</div>
+<div class="form-group">
+  <label>Passward</label>
+  <input type="password" name="passward" id="passward"  placeholder="Enter your passward">
+</div>
+<div class="form-group">
+  <label>Confirm Password</label>
+  <input
+  type="password"
+  name="conformpassword"
+  id="conformpassword"
+  placeholder="Confirm password"
+  required
+  />
+</div>
+<div id="but">
+<button type="submit">Submit</button>
+</div>
+    </form>
+  </div>
+</body>
+</html>
